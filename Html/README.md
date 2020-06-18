@@ -8,8 +8,10 @@ E a maioria desse conhecimento vem de projetos gratuitos diponibilizado por pess
 
 Fontes:
 
-Fontes    | Links
---------- | ------
+Fontes    | Links - Títulos - Autores - Editora  
+--------- | --------------
+Fabio Akita | (https://www.youtube.com/user/AkitaOnRails)
+Fabio Akita | (https://github.com/akitaonrails)
 Curso em video  | (https://www.youtube.com/user/cursosemvideo)
 Gustavo Guanabara | (https://github.com/gustavoguanabara)
 W3C | (https://www.w3schools.com/html/default.asp)
