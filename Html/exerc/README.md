@@ -37,7 +37,7 @@ title | elemento especifica um título para a página HTML (que é mostrada na b
 body | elemento define o corpo do documento e é um contêiner para todo o conteúdo visível, como títulos, parágrafos, imagens, hiperlinks, tabelas, listas, etc.
 h1 - h6	| elemento define um cabeçalho com diversos tamanhos começando pelo maior h1
 p	| elemento define um parágrafo
-
+< kbd> | Define entrada de texto como comando de teclado.
 
 
 
@@ -53,7 +53,7 @@ Links HTML - O atributo de destino
 
 Tags   | Funcionalidade
 --------- | ---------
-a | Os links HTML são definidos com a tag.
+a | Os links HTML são definidos com a tag < a>.
 
 Por padrão, a página vinculada será exibida na janela atual do navegador. Para alterar isso, você deve especificar outro destino para o link.
 
@@ -65,7 +65,6 @@ O target atributo especifica onde abrir o documento vinculado.
     _blank - Abre o documento em uma nova janela ou guia
     _parent - Abre o documento no quadro pai
     _top - Abre o documento no corpo inteiro da janela
-
 
 
 ## Atributos
@@ -163,6 +162,195 @@ O < picture >elemento contém um ou mais < source >elementos, cada um referente 
 
 Cada < source > elemento possui um mediaatributo que define quando a imagem é a mais adequada.
 
+**Exemplo**
+
+Mostre imagens diferentes para diferentes tamanhos de tela:
+
+  < picture >
+    < source media="(min-width: 650px)" srcset="img_food.jpg" >
+    < source media="(min-width: 465px)" srcset="img_car.jpg" >
+    < img src="img_girl.jpg" >
+  < /picture > 
+
+## Tabelas HTML
+
+As tabelas HTML permitem que os desenvolvedores da Web organizem dados em linhas e colunas.
+
+**Definir uma tabela HTML**
+
+A < table >tag define uma tabela HTML.
+
+Cada linha da tabela é definida com uma < tr >tag. Cada cabeçalho da tabela é definido com uma < th >tag. Cada dados / célula da tabela é definido com uma < td >tag.
+
+Por padrão, o texto nos < th > elementos está em negrito e centralizado.
+
+Por padrão, o texto nos < td > elementos é regular e alinhado à esquerda.
+
+***Exemplo***
+
+< table style="width:100%" >
+  < tr >
+    < th >Name< /th >
+    < th colspan="2">Telephone< /th >
+  < /tr >
+  < tr >
+    < td > Bill Gates < /td >
+    < td > 55577854 < /td >
+    < td > 55577855 < /td >
+  < /tr >
+< /table > 
+
+## Listas HTML
+
+As listas HTML permitem que os desenvolvedores da Web agrupem um conjunto de itens relacionados nas listas.
+
+### Tags da lista HTML
+Tag   | Description
+------| ---------------
+< ul > |Defines an unordered list
+< ol > |Defines an ordered list
+< li > |Defines a list item
+< dl > |Defines a description list
+< dt > |Defines a term in a description list
+< dd > | Describes the term in a description list.
+
+##Bloco HTML e elementos embutidos
+
+Todo elemento HTML possui um valor de exibição padrão, dependendo do tipo de elemento que é.
+
+Existem dois valores de exibição: bloco e embutido.
+
+**Aqui estão os elementos no nível do bloco em HTML:**
+
+Elementos em nível de bloco
+
+Um elemento no nível do bloco sempre inicia em uma nova linha e ocupa toda a largura disponível (se estende para a esquerda e direita, tanto quanto possível).
+
+* < endereço >
+* < artigo >
+* < aparte >
+* < blockquote >
+* < tela >
+* < dd >
+* < div >
+* < dl >
+* < dt >
+* < fieldset >
+* < figcaption >
+* < figura >
+* < rodapé >
+* < formulário >
+* < h1 > - < h6 >
+* < cabeçalho >
+* < hr >
+* < li >
+* < principal >
+* < nav >
+* < noscript >
+* < ol >
+* < p >
+* < pre >
+* < seção >
+* < tabela >
+* < tfoot >
+* < ul >
+* < video >
 
 
+**Aqui estão os elementos embutidos no HTML:**
 
+Elementos Inline
+
+Um elemento embutido não inicia em uma nova linha e ocupa apenas a largura necessária.
+
+* < Uma >
+* < abbr >
+* < acrônimo >
+* < b >
+* < bdo >
+* < grande >
+* < Br >
+* < botão >
+* < citar >
+* < código >
+* < dfn >
+* < em >
+* < i >
+* < img >
+* < entrada >
+* < kbd >
+* < label >
+* < mapa >
+* < objeto >
+* < saída >
+* < q >
+* < samp >
+* < script >
+* < selecione >
+* < pequeno >
+* < span >
+* < forte >
+* < sub >
+* < sup >
+* < área de texto >
+* < hora >
+* < tt >
+* < var >
+
+##JavaScript em HTML
+
+A tag HTML < script >
+
+A < script >tag é usada para definir um script do lado do cliente (JavaScript).
+
+O < script >elemento contém instruções de script ou aponta para um arquivo de script externo por meio do srcatributo
+
+Os usos comuns para JavaScript são manipulação de imagem, validação de formulário e alterações dinâmicas de conteúdo.
+
+###Tags de script HTML
+
+Tag  |  Description
+------|-------------
+< script > | Defines a client-side script
+< noscript > | Defines an alternate content for users that do not support client-side scripts
+
+## O elemento HTML <meta>
+
+O < meta >elemento é usado para especificar qual conjunto de caracteres é usado, descrição da página, palavras-chave, autor e outros metadados.
+
+Os metadados são usados ​​pelos navegadores (como exibir conteúdo), pelos mecanismos de pesquisa (palavras-chave) e outros serviços da web.
+
+- **Defina o conjunto de caracteres usado:**
+
+* < meta charset="UTF-8">
+* < meta name="description" content="Free Web tutorials">
+* < meta name="keywords" content="HTML, CSS, XML, JavaScript">
+* < meta name="author" content="John Doe">
+* < meta http-equiv="refresh" content="30">
+* < meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+##Elementos semânticos em HTML
+
+**Por que elementos semânticos?**
+
+De acordo com o W3C: "Uma Web semântica permite que os dados sejam compartilhados e reutilizados em aplicativos, empresas e comunidades".
+
+Abaixo está uma lista alfabética de alguns dos elementos semânticos em HTML.
+
+Os links vão para a nossa Referência HTML completa.
+
+Tag  | Description
+------|-----------------
+< article>  | Defines an article
+< aside>   |Defines content aside from the page content
+< details>  | Defines additional details that the user can view or hide
+< figcaption> | Defines a caption for a <figure> element
+< figure>  | Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+< footer>  | Defines a footer for a document or section
+< header>  | Specifies a header for a document or section
+< main>  | Specifies the main content of a document
+< mark>  | Defines marked/highlighted text
+< nav>   | Defines navigation links
+< section>  | Defines a section in a document
+< summary>  | Defines a visible heading for a <details> element
+< time> | Defines a date/time
