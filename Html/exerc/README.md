@@ -43,7 +43,7 @@ p	| elemento define um parágrafo
 
 ## Tags de comentário HTML
 
-Você pode adicionar comentários à sua fonte HTML usando a seguinte sintaxe:
+Você pode adicionar comentários à sua fonte HTML usando a seguinte sintaxe: < br >
 <-!-- Write your comments here --> 
 
 
@@ -85,43 +85,43 @@ blockquote cite="https://www.w3schools.com/html/html_attributes.asp"
 Tags   | Funcionalidade
 -------- | ---------------
  p | This is a paragraph. p
- **p** |This is another paragraph.</p> 
-<hr> | tag define uma quebra temática em uma página HTML e é mais frequentemente exibida como uma regra horizontal.
-<br> | elemento HTML define uma quebra de linha.
-<pre> | elemento HTML define o texto pré-formatado.
+ **p** |This is another paragraph.< /p > 
+< hr > | tag define uma quebra temática em uma página HTML e é mais frequentemente exibida como uma regra horizontal.
+< br > | elemento HTML define uma quebra de linha.
+< pre > | elemento HTML define o texto pré-formatado.
 
 
 ## Elementos de formatação HTML
 
 ### Os elementos de formatação foram projetados para exibir tipos especiais de texto:
 
-   * <b> - Texto em negrito
-   * <strong> - texto importante
-   * <i> - texto em itálico
-   * <em> - Texto enfatizado
-   * <mark> - Texto marcado
-   * <small> - Texto menor
-   * <del> - Texto excluído
-   * <ins> - texto inserido
-   * <sub> - Texto subscrito
-   * <sup> - Texto sobrescrito
+   * < b > - Texto em negrito
+   * < strong > - texto importante
+   * < i > - texto em itálico
+   * < em > - Texto enfatizado
+   * < mark > - Texto marcado
+   * < small > - Texto menor
+   * < del > - Texto excluído
+   * < ins > - texto inserido
+   * < sub > - Texto subscrito
+   * < sup > - Texto sobrescrito
 
 ## Elementos de cotação e citação HTML
 
 Tag 	| Funcionalidade
 ------ |-------------------
-<abbr 	|tag HTML define uma abreviação ou acrônimo, como "HTML", "CSS", "Mr.", "Dr.".
-<address> | tag HTML define as informações de contato do autor.
-<bdo> 	| tag HTML é usada para substituir a direção do texto atual:
-<blockquote> |	elemento HTML define uma seção que é citada de outra fonte.
-<cite> 	| tag HTML define o título de um trabalho criativo.
-<q> 	| tag HTML define uma citação curta.
+< abbr > 	|tag HTML define uma abreviação ou acrônimo, como "HTML", "CSS", "Mr.", "Dr.".
+< address > | tag HTML define as informações de contato do autor.
+< bdo > 	| tag HTML é usada para substituir a direção do texto atual:
+< blockquote > |	elemento HTML define uma seção que é citada de outra fonte.
+< cite > 	| tag HTML define o título de um trabalho criativo.
+< q > 	| tag HTML define uma citação curta.
 
 ## Sintaxe de imagens HTML
 
-* A <img> tag HTML é usada para incorporar uma imagem em uma página da web.
+* A < img > tag HTML é usada para incorporar uma imagem em uma página da web.
 
-* A <img> tag possui dois atributos obrigatórios:
+* A < img > tag possui dois atributos obrigatórios:
 
   -  src - especifica o caminho para a imagem
   -  alt - Especifica um texto alternativo para a imagem
@@ -132,14 +132,14 @@ ___________________________________________________________________________
 
 Tag 	| Description
 --------| ------------------
-<img> 	|Defines an image
-<map> 	|Defines an image map
-<area> 	|Defines a clickable area inside an image map
-<picture> 	|Defines a container for multiple image resources
+< img > 	|Defines an image
+< map > 	|Defines an image map
+< area >  	|Defines a clickable area inside an image map
+< picture > 	|Defines a container for multiple image resources
 
 **Exemplo**
 
-<img src="imagem.jpg" alt="Descrição da imagem"> 
+< img src="imagem.jpg" alt="Descrição da imagem" > 
 
 **Formatos comuns de imagem**
 ______________________________________________________________________________
@@ -157,11 +157,11 @@ SVG 	| Scalable Vector Graphics 	| .svg
 
 ## Elemento <picture> HTML
 
-O <picture>elemento HTML oferece aos desenvolvedores da Web mais flexibilidade na especificação de recursos de imagem.
+O < picture >elemento HTML oferece aos desenvolvedores da Web mais flexibilidade na especificação de recursos de imagem.
 
-O <picture>elemento contém um ou mais <source>elementos, cada um referente a imagens diferentes por meio do srcset atributo Dessa forma, o navegador pode escolher a imagem que melhor se ajusta à exibição e / ou dispositivo atual.
+O < picture >elemento contém um ou mais < source >elementos, cada um referente a imagens diferentes por meio do srcset atributo Dessa forma, o navegador pode escolher a imagem que melhor se ajusta à exibição e / ou dispositivo atual.
 
-Cada <source>elemento possui um mediaatributo que define quando a imagem é a mais adequada.
+Cada < source > elemento possui um mediaatributo que define quando a imagem é a mais adequada.
 
 
 
